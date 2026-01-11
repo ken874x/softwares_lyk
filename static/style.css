@@ -1,0 +1,19 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+nav {
+  background: black;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.content {
+  padding: 40px;
+}

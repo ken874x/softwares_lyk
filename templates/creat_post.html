@@ -1,0 +1,12 @@
+<h1>Create Post</h1>
+
+<form method="POST">
+  <input name="title" placeholder="Title"><br><br>
+  <textarea name="content"></textarea><br>
+  <button>Publish</button>
+</form>
+
+<script src="https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js"></script>
+<script>
+  CKEDITOR.replace("content");
+</script>
